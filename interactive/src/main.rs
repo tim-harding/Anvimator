@@ -1,11 +1,11 @@
 use anyhow::Result;
+use futures::executor::block_on;
+use rendering::State;
 use winit::{
     event::{ElementState, Event, KeyboardInput, WindowEvent},
     event_loop::{ControlFlow, EventLoop},
     window::WindowBuilder,
 };
-use rendering::State;
-use futures::executor::block_on;
 
 fn main() -> Result<()> {
     prepare_logging()?;
@@ -13,7 +13,7 @@ fn main() -> Result<()> {
     let window = WindowBuilder::new().build(&event_loop)?;
     let size = window.inner_size();
     let size: (u32, u32) = (size.width.into(), size.height.into());
-    let mut state = block_on(State::new_from_window(size, &window));
+    let mut state = block_on(State::new_from_window(size, &window))?;
     event_loop.run(move |event, _, control_flow| match event {
         Event::WindowEvent {
             ref event,
@@ -30,6 +30,12 @@ fn main() -> Result<()> {
                 }
                 _ => {}
             },
+            WindowEvent::Resized(size) => {
+                state.resize((size.width.into(), size.height.into()));
+            }
+            WindowEvent::ScaleFactorChanged { new_inner_size, .. } => {
+                state.resize((new_inner_size.width.into(), new_inner_size.height.into()))
+            }
             _ => {}
         },
         _ => {}

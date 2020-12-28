@@ -2,13 +2,15 @@ use anyhow::Result;
 use raw_window_handle::HasRawWindowHandle;
 use thiserror::Error;
 
+type PixelSize = (u32, u32);
+
 pub struct State {
     surface: wgpu::Surface,
     device: wgpu::Device,
     queue: wgpu::Queue,
     sc_desc: wgpu::SwapChainDescriptor,
     swap_chain: wgpu::SwapChain,
-    size: (u32, u32),
+    size: PixelSize,
 }
 
 #[derive(Error, Debug)]
@@ -18,7 +20,7 @@ enum StateCreationError {
 }
 
 impl State {
-    pub async fn new_from_window<W>(size: (u32, u32), window: &W) -> Result<Self>
+    pub async fn new_from_window<W>(size: PixelSize, window: &W) -> Result<Self>
     where
         W: HasRawWindowHandle,
     {
@@ -57,5 +59,12 @@ impl State {
             swap_chain,
             size,
         })
+    }
+
+    pub fn resize(&mut self, new_size: PixelSize) {
+        self.size = new_size;
+        self.sc_desc.width = new_size.0;
+        self.sc_desc.height = new_size.1;
+        self.swap_chain = self.device.create_swap_chain(&self.surface, &self.sc_desc);
     }
 }
