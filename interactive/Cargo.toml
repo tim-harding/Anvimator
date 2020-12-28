@@ -1,0 +1,13 @@
+[package]
+name = "interactive"
+version = "0.1.0"
+authors = ["Tim Harding <Tim@TimHarding.co>"]
+edition = "2018"
+
+[dependencies]
+winit = "0.24"
+fern = "0.6"
+log = "0.4"
+anyhow = "1.0"
+rendering = { path = "../rendering" }
+futures = "0.3"

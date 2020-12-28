@@ -30,18 +30,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "anvimator"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "fern",
- "log",
- "wgpu",
- "wgpu_glyph",
- "winit",
-]
-
-[[package]]
 name = "anyhow"
 version = "1.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -76,6 +64,10 @@ name = "autocfg"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
+
+[[package]]
+name = "batch"
+version = "0.1.0"
 
 [[package]]
 name = "bit-set"
@@ -189,6 +181,10 @@ name = "copyless"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2df960f5d869b2dd8532793fde43eb5427cceb126c929747a26823ab0eeb536"
+
+[[package]]
+name = "core"
+version = "0.1.0"
 
 [[package]]
 name = "core-foundation"
@@ -779,6 +775,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "interactive"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "fern",
+ "futures",
+ "log",
+ "rendering",
+ "winit",
+]
+
+[[package]]
 name = "iovec"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1354,6 +1362,17 @@ name = "redox_syscall"
 version = "0.1.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "41cc0f7e4d5d4544e8861606a285bb08d3e70712ccc7d2b84d7c0ccfaf4b05ce"
+
+[[package]]
+name = "rendering"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "raw-window-handle",
+ "thiserror",
+ "wgpu",
+ "wgpu_glyph",
+]
 
 [[package]]
 name = "rustc-hash"
