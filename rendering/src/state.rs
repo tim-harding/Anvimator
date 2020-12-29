@@ -15,6 +15,56 @@ pub struct State {
     size: PixelSize,
 }
 
+#[repr(u32)]
+enum Nord {
+    PolarNight0 = 0x2e3440,
+    PolarNight1 = 0x3b4252,
+    PolarNight2 = 0x434c5e,
+    PolarNight3 = 0x4c566a,
+    SnowStorm0 = 0xd8dee9,
+    SnowStorm1 = 0xe5e9f0,
+    SnowStorm2 = 0xeceff4,
+    Frost0 = 0x8fbcbb,
+    Frost1 = 0x88c0d0,
+    Frost2 = 0x81a1c1,
+    Frost3 = 0x5e81ac,
+    Aurora0 = 0xbf616a,
+    Aurora1 = 0xd08770,
+    Aurora2 = 0xebcb8b,
+    Aurora3 = 0xa3be8c,
+    Aurora4 = 0xb48ead,
+}
+
+impl Nord {
+    fn parts(self) -> [u8; 3] {
+        let n = self as u32;
+        let r = (n >> 16) as u8;
+        let g = (n >> 8) as u8;
+        let b = n as u8;
+        [r, g, b]
+    }
+
+    pub fn into_array(self) -> [f32; 4] {
+        let parts = self.parts();
+        [
+            (parts[0] as f32 / 255.0).powf(2.2),
+            (parts[1] as f32 / 255.0).powf(2.2),
+            (parts[2] as f32 / 255.0).powf(2.2),
+            1.0,
+        ]
+    }
+
+    pub fn into_color(self) -> wgpu::Color {
+        let parts = self.parts();
+        wgpu::Color {
+            r: (parts[0] as f64 / 255.0).powf(2.2),
+            g: (parts[1] as f64 / 255.0).powf(2.2),
+            b: (parts[2] as f64 / 255.0).powf(2.2),
+            a: 1.0,
+        }
+    }
+}
+
 #[derive(Error, Debug)]
 enum StateCreationError {
     #[error("Request adapter failed")]
@@ -123,7 +173,7 @@ impl State {
         glyph_brush.queue(Section {
             screen_position: (10.0, 40.0),
             text: vec![Text::new("I appear below")
-                .with_color([1.0, 0.0, 0.0, 1.0])
+                .with_color(Nord::SnowStorm2.into_array())
                 .with_scale(40.0)],
             ..Section::default()
         });
@@ -156,7 +206,7 @@ impl State {
                 attachment: &frame.view,
                 resolve_target: None,
                 ops: wgpu::Operations {
-                    load: wgpu::LoadOp::Clear(wgpu::Color::RED),
+                    load: wgpu::LoadOp::Clear(Nord::PolarNight0.into_color()),
                     store: true,
                 },
             }],
