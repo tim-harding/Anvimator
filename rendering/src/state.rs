@@ -2,8 +2,17 @@ use anyhow::{anyhow, Result};
 use raw_window_handle::HasRawWindowHandle;
 use thiserror::Error;
 use wgpu_glyph::{ab_glyph, GlyphBrushBuilder, Section, Text};
+use ab_glyph::{Font, FontArc};
 
-use crate::color::Nord;
+
+use syntect::{
+    easy::HighlightLines,
+    parsing::SyntaxSet,
+    highlighting::{ThemeSet, Style},
+    util::LinesWithEndings,
+};
+
+use crate::color::{HexRgba, Nord};
 
 type PixelSize = (u32, u32);
 
@@ -111,24 +120,46 @@ impl State {
 
         self.clear_screen_pass(&mut frame, &mut encoder);
 
-        let font = ab_glyph::FontArc::try_from_slice(include_bytes!("assets/CascadiaMono.ttf"))?;
+        let font = FontArc::try_from_slice(include_bytes!("assets/CascadiaMono.ttf"))?;
+        let scale = {
+            let ppi = 72.0;
+            let dpi = 96.0;
+            let pt_size = 14.0;
+            let px_per_em = pt_size / ppi * dpi;
+            let units_per_em = font.units_per_em().ok_or(anyhow!("Couldn't get units per em"))?;
+            let scale_factor = px_per_em / units_per_em;
+            let scale = font.as_scaled(scale_factor).scale;
+            println!("{:?}", scale);
+            scale
+        };
+
         let mut glyph_brush =
             GlyphBrushBuilder::using_font(font).build(&self.device, self.sc_desc.format);
 
-        glyph_brush.queue(Section {
-            screen_position: (10.0, 10.0),
-            bounds: (90.0, 90.0),
-            text: vec![Text::new("Hello wgpu_glyph")],
-            ..Section::default()
-        });
+        let ps = SyntaxSet::load_defaults_newlines();
 
-        glyph_brush.queue(Section {
-            screen_position: (10.0, 40.0),
-            text: vec![Text::new("I appear below")
-                .with_color::<[f32; 4]>(Nord::SnowStorm2.hex().into())
-                .with_scale(40.0)],
-            ..Section::default()
-        });
+
+        // Todo: This not be hard coded
+        let ts = ThemeSet::load_from_folder("D:\\20\\12\\anvimator\\rendering\\src\\assets")?;
+
+        let syntax = ps.find_syntax_by_extension("rs").unwrap();
+        let theme = &ts.themes["Nord"];
+        let mut highlighter = HighlightLines::new(syntax, theme);
+        let string = "pub struct Wow { hi: u64 }\nfn blah() -> u64 { }";
+        for (i, line) in LinesWithEndings::from(string).enumerate() {
+            let ranges = highlighter.highlight(line, &ps);
+            for (style, token) in ranges.iter() {
+                let color: HexRgba = style.foreground.into();
+                glyph_brush.queue(Section {
+                    screen_position: (0.0, i as f32 * scale.y),
+                    text: vec![
+                        Text::new(token)
+                            .with_color::<[f32; 4]>(color.into())
+                    ],
+                    ..Section::default()
+                });
+            }
+        }
 
         glyph_brush
             .draw_queued(

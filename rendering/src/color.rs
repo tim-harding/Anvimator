@@ -1,3 +1,5 @@
+use syntect::highlighting::Color;
+
 pub struct HexRgba(u32);
 
 impl From<u32> for HexRgba {
@@ -45,6 +47,22 @@ impl From<HexRgba> for [f64; 4] {
             gamma_f64(hex[2]),
             gamma_f64(hex[3]),
         ]
+    }
+}
+
+impl From<[u8; 4]> for HexRgba {
+    fn from(n: [u8; 4]) -> Self {
+        let r = (n[0] as u32) << 24;
+        let g = (n[1] as u32) << 16;
+        let b = (n[2] as u32) << 8;
+        let a = n[3] as u32;
+        Self(r | g | b | a)
+    }
+}
+
+impl From<Color> for HexRgba {
+    fn from(c: Color) -> Self {
+        [c.r, c.g, c.b, c.a].into()
     }
 }
 

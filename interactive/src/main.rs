@@ -7,6 +7,9 @@ use winit::{
     window::{Window, WindowBuilder},
 };
 
+// Todo: test rust-gpu
+// https://embarkstudios.github.io/rust-gpu/book/writing-shader-crates.html
+
 type WinitSize = winit::dpi::PhysicalSize<u32>;
 
 fn main() -> Result<()> {
@@ -19,7 +22,7 @@ fn main() -> Result<()> {
             handle_window_event(event, control_flow, &mut state)
         }
         Event::RedrawRequested(_) => handle_redraw(control_flow, &mut state),
-        Event::MainEventsCleared => window.request_redraw(),
+        Event::MainEventsCleared => { } // window.request_redraw(),
         _ => {}
     });
 }
