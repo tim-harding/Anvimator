@@ -120,20 +120,6 @@ impl State {
         self.clear_screen_pass(&mut frame, &mut encoder);
 
         let font = FontArc::try_from_slice(include_bytes!("assets/CascadiaMono.ttf"))?;
-        let scale = {
-            let ppi = 72.0;
-            let dpi = 96.0;
-            let pt_size = 14.0;
-            let px_per_em = pt_size / ppi * dpi;
-            let units_per_em = font
-                .units_per_em()
-                .ok_or(anyhow!("Couldn't get units per em"))?;
-            let scale_factor = px_per_em / units_per_em;
-            let scale = font.as_scaled(scale_factor).scale;
-            println!("{:?}", scale);
-            scale
-        };
-
         let mut glyph_brush =
             GlyphBrushBuilder::using_font(font).build(&self.device, self.sc_desc.format);
 
@@ -163,7 +149,6 @@ impl State {
             })
             .collect();
         glyph_brush.queue(Section {
-            // Add position and bounds
             text,
             ..Section::default()
         });
