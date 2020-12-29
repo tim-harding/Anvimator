@@ -1734,3 +1734,1363 @@ object info: (type: INSTANCE, hndl: 1874707072720)
 GENERAL [Loader Message (0)] : Unloading layer library C:\VulkanSDK\1.2.162.0\Bin\.\VkLayer_khronos_validation.dll
 object info: (type: INSTANCE, hndl: 1874707072720)
 
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_16bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_8bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_bind_memory2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_create_renderpass2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_depth_stencil_resolve (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_descriptor_update_template (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_device_group (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_draw_indirect_count (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_driver_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_get_memory_requirements2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_image_format_list (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_imageless_framebuffer (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance1 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance3 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_multiview (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_pipeline_executable_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_push_descriptor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_relaxed_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_mirror_clamp_to_edge (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_ycbcr_conversion (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.14
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_separate_depth_stencil_layouts (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_clock (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_draw_parameters (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float16_int8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float_controls (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_non_semantic_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_subgroup_extended_types (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_spirv_1_4 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_storage_buffer_storage_class (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.70
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain_mutable_format (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_timeline_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_uniform_buffer_standard_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_variable_pointers (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_calibrated_timestamps (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_conditional_rendering (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_custom_border_color (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.11
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_clip_enable (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_range_unrestricted (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_descriptor_indexing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_discard_rectangles (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_external_memory_host (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_full_screen_exclusive (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_hdr_metadata (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_host_query_reset (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_index_type_uint8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_inline_uniform_block (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_line_rasterization (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_budget (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_priority (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pci_bus_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pipeline_creation_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_scalar_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_separate_stencil_usage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_demote_to_helper_invocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_ballot (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_vote (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_subgroup_size_control (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_texel_buffer_alignment (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_tooling_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_transform_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_vertex_attribute_divisor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_ycbcr_image_arrays (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation_image_aliasing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostic_checkpoints (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostics_config (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_sm_builtins (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_subgroup_partitioned (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_device_generated_commands (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_multiview_per_view_attributes (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 2398834727104)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_16bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_8bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_bind_memory2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_create_renderpass2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_depth_stencil_resolve (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_descriptor_update_template (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_device_group (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_draw_indirect_count (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_driver_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_get_memory_requirements2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_image_format_list (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_imageless_framebuffer (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance1 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance3 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_multiview (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_pipeline_executable_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_push_descriptor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_relaxed_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_mirror_clamp_to_edge (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_ycbcr_conversion (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.14
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_separate_depth_stencil_layouts (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_clock (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_draw_parameters (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float16_int8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float_controls (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_non_semantic_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_subgroup_extended_types (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_spirv_1_4 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_storage_buffer_storage_class (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.70
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain_mutable_format (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_timeline_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_uniform_buffer_standard_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_variable_pointers (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_calibrated_timestamps (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_conditional_rendering (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_custom_border_color (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.11
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_clip_enable (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_range_unrestricted (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_descriptor_indexing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_discard_rectangles (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_external_memory_host (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_full_screen_exclusive (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_hdr_metadata (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_host_query_reset (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_index_type_uint8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_inline_uniform_block (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_line_rasterization (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_budget (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_priority (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pci_bus_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pipeline_creation_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_scalar_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_separate_stencil_usage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_demote_to_helper_invocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_ballot (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_vote (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_subgroup_size_control (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_texel_buffer_alignment (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_tooling_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_transform_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_vertex_attribute_divisor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_ycbcr_image_arrays (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation_image_aliasing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostic_checkpoints (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostics_config (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_sm_builtins (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_subgroup_partitioned (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_device_generated_commands (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_multiview_per_view_attributes (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1757980993568)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_16bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_8bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_bind_memory2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_create_renderpass2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_depth_stencil_resolve (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_descriptor_update_template (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_device_group (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_draw_indirect_count (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_driver_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_get_memory_requirements2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_image_format_list (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_imageless_framebuffer (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance1 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance3 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_multiview (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_pipeline_executable_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_push_descriptor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_relaxed_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_mirror_clamp_to_edge (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_ycbcr_conversion (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.14
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_separate_depth_stencil_layouts (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_clock (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_draw_parameters (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float16_int8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float_controls (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_non_semantic_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_subgroup_extended_types (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_spirv_1_4 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_storage_buffer_storage_class (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.70
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain_mutable_format (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_timeline_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_uniform_buffer_standard_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_variable_pointers (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_calibrated_timestamps (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_conditional_rendering (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_custom_border_color (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.11
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_clip_enable (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_range_unrestricted (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_descriptor_indexing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_discard_rectangles (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_external_memory_host (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_full_screen_exclusive (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_hdr_metadata (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_host_query_reset (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_index_type_uint8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_inline_uniform_block (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_line_rasterization (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_budget (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_priority (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pci_bus_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pipeline_creation_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_scalar_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_separate_stencil_usage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_demote_to_helper_invocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_ballot (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_vote (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_subgroup_size_control (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_texel_buffer_alignment (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_tooling_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_transform_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_vertex_attribute_divisor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_ycbcr_image_arrays (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation_image_aliasing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostic_checkpoints (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostics_config (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_sm_builtins (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_subgroup_partitioned (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_device_generated_commands (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_multiview_per_view_attributes (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1484258836256)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_16bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_8bit_storage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_bind_memory2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_create_renderpass2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_depth_stencil_resolve (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_descriptor_update_template (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_device_group (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_draw_indirect_count (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_driver_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_fence_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_external_semaphore_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_get_memory_requirements2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_image_format_list (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_imageless_framebuffer (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance1 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance2 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_maintenance3 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_multiview (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_pipeline_executable_properties (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_push_descriptor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_relaxed_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_mirror_clamp_to_edge (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_sampler_ycbcr_conversion (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.14
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_separate_depth_stencil_layouts (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_clock (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_draw_parameters (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float16_int8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_float_controls (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_non_semantic_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_shader_subgroup_extended_types (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_spirv_1_4 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_storage_buffer_storage_class (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.70
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_swapchain_mutable_format (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_timeline_semaphore (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_uniform_buffer_standard_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_variable_pointers (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_KHR_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_buffer_device_address (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_calibrated_timestamps (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_conditional_rendering (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_custom_border_color (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.11
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_clip_enable (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_depth_range_unrestricted (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_descriptor_indexing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_discard_rectangles (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_external_memory_host (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_full_screen_exclusive (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.4
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_hdr_metadata (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_host_query_reset (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_index_type_uint8 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_inline_uniform_block (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_line_rasterization (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_budget (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_memory_priority (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pci_bus_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_pipeline_creation_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_scalar_block_layout (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_separate_stencil_usage (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_demote_to_helper_invocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_ballot (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_shader_subgroup_vote (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_subgroup_size_control (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_texel_buffer_alignment (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_tooling_info (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_transform_feedback (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_vertex_attribute_divisor (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_EXT_ycbcr_image_arrays (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_dedicated_allocation_image_aliasing (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostic_checkpoints (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_device_diagnostics_config (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_external_memory_win32 (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_sm_builtins (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_shader_subgroup_partitioned (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NV_win32_keyed_mutex (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.2
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_device_generated_commands (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.3
+object info: (type: INSTANCE, hndl: 1476937799824)
+
+[gfx_backend_vulkan][INFO] 
+GENERAL [Loader Message (0)] : Device Extension: VK_NVX_multiview_per_view_attributes (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispui.inf_amd64_ad55d8ba1772cff7\.\nvoglv64.dll) version 0.0.1
+object info: (type: INSTANCE, hndl: 1476937799824)
+

@@ -24,8 +24,13 @@ impl State {
     where
         W: HasRawWindowHandle,
     {
+        // Use a backend with first-tier support
         let instance = wgpu::Instance::new(wgpu::BackendBit::PRIMARY);
+
+        // Gets a destination for rendered images
         let surface = unsafe { instance.create_surface(window) };
+
+        // The physical compute device, e.g. a GPU
         let adapter = instance
             .request_adapter(&wgpu::RequestAdapterOptions {
                 power_preference: Default::default(),
@@ -33,24 +38,37 @@ impl State {
             })
             .await
             .ok_or(StateCreationError::RequestAdapterFailed)?;
+
+        // Device is the connection the the adapter
+        // Queue executes command buffers
         let (device, queue) = adapter
             .request_device(
                 &wgpu::DeviceDescriptor {
-                    features: wgpu::Features::empty(),
-                    limits: wgpu::Limits::default(),
+                    // Todo: Would be nice to hike up features and limits once
+                    // I have a better GPU, especially to use push constants
+                    features: Default::default(),
+                    limits: Default::default(),
                     shader_validation: true,
                 },
+                // Don't need call tracing
                 None,
             )
             .await?;
+
+
         let sc_desc = wgpu::SwapChainDescriptor {
+            // As opposed to an intermediate texture, e.g. a shader input
             usage: wgpu::TextureUsage::OUTPUT_ATTACHMENT,
             format: wgpu::TextureFormat::Bgra8UnormSrgb,
             width: size.0,
             height: size.1,
+            // Vsync and refresh rate limited to display framerate
             present_mode: wgpu::PresentMode::Fifo,
         };
+
+        // Multiple textures for presentation to prevent screen tear
         let swap_chain = device.create_swap_chain(&surface, &sc_desc);
+
         Ok(Self {
             surface,
             device,
@@ -73,12 +91,16 @@ impl State {
     }
 
     pub fn render(&mut self) -> Result<()> {
+        // Get a texture to draw on
         let mut frame = self.swap_chain.get_current_frame()?.output;
+
+        // Encodes render passes to create a command buffer for submission
         let mut encoder = self
             .device
             .create_command_encoder(&wgpu::CommandEncoderDescriptor {
                 label: Some("Render Encoder"),
             });
+
         self.clear_screen_pass(&mut frame, &mut encoder);
         self.queue.submit(std::iter::once(encoder.finish()));
         Ok(())
