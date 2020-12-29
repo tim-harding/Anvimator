@@ -1,6 +1,7 @@
-use anyhow::Result;
+use anyhow::{anyhow, Result};
 use raw_window_handle::HasRawWindowHandle;
 use thiserror::Error;
+use wgpu_glyph::{ab_glyph, GlyphBrushBuilder, Section, Text};
 
 type PixelSize = (u32, u32);
 
@@ -10,6 +11,7 @@ pub struct State {
     queue: wgpu::Queue,
     sc_desc: wgpu::SwapChainDescriptor,
     swap_chain: wgpu::SwapChain,
+    staging_belt: wgpu::util::StagingBelt,
     size: PixelSize,
 }
 
@@ -55,6 +57,9 @@ impl State {
             )
             .await?;
 
+        // Used by wgpu_glyph to upload data. Works similar to queue.write_buffers
+        // but does so more efficiently.
+        let staging_belt = wgpu::util::StagingBelt::new(1024);
 
         let sc_desc = wgpu::SwapChainDescriptor {
             // As opposed to an intermediate texture, e.g. a shader input
@@ -75,6 +80,7 @@ impl State {
             queue,
             sc_desc,
             swap_chain,
+            staging_belt,
             size,
         })
     }
@@ -102,7 +108,40 @@ impl State {
             });
 
         self.clear_screen_pass(&mut frame, &mut encoder);
-        self.queue.submit(std::iter::once(encoder.finish()));
+
+        let font = ab_glyph::FontArc::try_from_slice(include_bytes!("assets/CascadiaMono.ttf"))?;
+        let mut glyph_brush =
+            GlyphBrushBuilder::using_font(font).build(&self.device, self.sc_desc.format);
+
+        glyph_brush.queue(Section {
+            screen_position: (10.0, 10.0),
+            bounds: (90.0, 90.0),
+            text: vec![Text::new("Hello wgpu_glyph")],
+            ..Section::default()
+        });
+
+        glyph_brush.queue(Section {
+            screen_position: (10.0, 40.0),
+            text: vec![Text::new("I appear below")
+                .with_color([1.0, 0.0, 0.0, 1.0])
+                .with_scale(40.0)],
+            ..Section::default()
+        });
+
+        glyph_brush
+            .draw_queued(
+                &self.device,
+                &mut self.staging_belt,
+                &mut encoder,
+                &frame.view,
+                self.size.0,
+                self.size.1,
+            )
+            .map_err(|e| anyhow!("{}", e))?;
+
+        self.staging_belt.finish();
+        self.queue.submit(Some(encoder.finish()));
+
         Ok(())
     }
 

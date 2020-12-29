@@ -81,8 +81,9 @@ fn prepare_logging() -> Result<()> {
                 message
             ))
         })
-        .level(log::LevelFilter::Debug)
-        .level_for("wgpu", log::LevelFilter::Info)
+        .level(log::LevelFilter::Warn)
+        .level_for("interactive", log::LevelFilter::Trace)
+        .level_for("rendering", log::LevelFilter::Trace)
         .chain(std::io::stdout())
         .chain(fern::log_file("output.log")?)
         .apply()?;
