@@ -67,4 +67,39 @@ impl State {
         self.sc_desc.height = new_size.1;
         self.swap_chain = self.device.create_swap_chain(&self.surface, &self.sc_desc);
     }
+
+    pub fn update(&mut self) {
+        // Todo
+    }
+
+    pub fn render(&mut self) -> Result<()> {
+        let mut frame = self.swap_chain.get_current_frame()?.output;
+        let mut encoder = self
+            .device
+            .create_command_encoder(&wgpu::CommandEncoderDescriptor {
+                label: Some("Render Encoder"),
+            });
+        self.clear_screen_pass(&mut frame, &mut encoder);
+        self.queue.submit(std::iter::once(encoder.finish()));
+        Ok(())
+    }
+
+    fn clear_screen_pass(
+        &mut self,
+        frame: &mut wgpu::SwapChainTexture,
+        encoder: &mut wgpu::CommandEncoder,
+    ) {
+        // Render pass added on drop
+        let _render_pass = encoder.begin_render_pass(&wgpu::RenderPassDescriptor {
+            color_attachments: &[wgpu::RenderPassColorAttachmentDescriptor {
+                attachment: &frame.view,
+                resolve_target: None,
+                ops: wgpu::Operations {
+                    load: wgpu::LoadOp::Clear(wgpu::Color::RED),
+                    store: true,
+                },
+            }],
+            depth_stencil_attachment: None,
+        });
+    }
 }

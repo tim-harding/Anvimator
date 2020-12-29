@@ -38,6 +38,14 @@ fn main() -> Result<()> {
             }
             _ => {}
         },
+        Event::RedrawRequested(_) => {
+            state.update();
+            if let Err(e) = state.render() {
+                log::error!("{}", e);
+                *control_flow = ControlFlow::Exit;
+            }
+        }
+        Event::MainEventsCleared => window.request_redraw(),
         _ => {}
     });
 }
