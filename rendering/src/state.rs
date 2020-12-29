@@ -1,14 +1,13 @@
+use ab_glyph::{Font, FontArc};
 use anyhow::{anyhow, Result};
 use raw_window_handle::HasRawWindowHandle;
 use thiserror::Error;
 use wgpu_glyph::{ab_glyph, GlyphBrushBuilder, Section, Text};
-use ab_glyph::{Font, FontArc};
-
 
 use syntect::{
     easy::HighlightLines,
+    highlighting::{Style, ThemeSet},
     parsing::SyntaxSet,
-    highlighting::{ThemeSet, Style},
     util::LinesWithEndings,
 };
 
@@ -126,7 +125,9 @@ impl State {
             let dpi = 96.0;
             let pt_size = 14.0;
             let px_per_em = pt_size / ppi * dpi;
-            let units_per_em = font.units_per_em().ok_or(anyhow!("Couldn't get units per em"))?;
+            let units_per_em = font
+                .units_per_em()
+                .ok_or(anyhow!("Couldn't get units per em"))?;
             let scale_factor = px_per_em / units_per_em;
             let scale = font.as_scaled(scale_factor).scale;
             println!("{:?}", scale);
@@ -138,7 +139,6 @@ impl State {
 
         let ps = SyntaxSet::load_defaults_newlines();
 
-
         // Todo: This not be hard coded
         let ts = ThemeSet::load_from_folder("D:\\20\\12\\anvimator\\rendering\\src\\assets")?;
 
@@ -146,20 +146,27 @@ impl State {
         let theme = &ts.themes["Nord"];
         let mut highlighter = HighlightLines::new(syntax, theme);
         let string = "pub struct Wow { hi: u64 }\nfn blah() -> u64 { }";
-        for (i, line) in LinesWithEndings::from(string).enumerate() {
-            let ranges = highlighter.highlight(line, &ps);
-            for (style, token) in ranges.iter() {
-                let color: HexRgba = style.foreground.into();
-                glyph_brush.queue(Section {
-                    screen_position: (0.0, i as f32 * scale.y),
-                    text: vec![
-                        Text::new(token)
-                            .with_color::<[f32; 4]>(color.into())
-                    ],
-                    ..Section::default()
-                });
-            }
-        }
+        let text: Vec<_> = LinesWithEndings::from(string)
+            .flat_map(|line| {
+                let ranges = highlighter.highlight(line, &ps);
+                let mut offset = 0;
+                // Todo: remove nested .collect()
+                let texts: Vec<_> = ranges
+                    .into_iter()
+                    .map(|(style, token)| {
+                        offset += token.len();
+                        let color: HexRgba = style.foreground.into();
+                        Text::new(token).with_color::<[f32; 4]>(color.into())
+                    })
+                    .collect();
+                texts.into_iter()
+            })
+            .collect();
+        glyph_brush.queue(Section {
+            // Add position and bounds
+            text,
+            ..Section::default()
+        });
 
         glyph_brush
             .draw_queued(
