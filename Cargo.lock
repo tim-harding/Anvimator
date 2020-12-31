@@ -226,6 +226,9 @@ checksum = "a2df960f5d869b2dd8532793fde43eb5427cceb126c929747a26823ab0eeb536"
 [[package]]
 name = "core"
 version = "0.1.0"
+dependencies = [
+ "ropey",
+]
 
 [[package]]
 name = "core-foundation"
@@ -1531,6 +1534,15 @@ dependencies = [
  "thiserror",
  "wgpu",
  "wgpu_glyph",
+]
+
+[[package]]
+name = "ropey"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0f3ef16589fdbb3e8fbce3dca944c08e61f39c7f16064b21a257d68ea911a83"
+dependencies = [
+ "smallvec",
 ]
 
 [[package]]
