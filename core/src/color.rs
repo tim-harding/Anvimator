@@ -1,5 +1,6 @@
 use syntect::highlighting::Color;
 
+#[derive(Debug, Copy, Clone, Default)]
 pub struct HexRgba(u32);
 
 impl From<u32> for HexRgba {
@@ -11,18 +12,6 @@ impl From<u32> for HexRgba {
 impl From<HexRgba> for u32 {
     fn from(color: HexRgba) -> u32 {
         color.0
-    }
-}
-
-impl From<HexRgba> for wgpu::Color {
-    fn from(hex: HexRgba) -> Self {
-        let parts: [f64; 4] = hex.into();
-        Self {
-            r: parts[0],
-            g: parts[1],
-            b: parts[2],
-            a: parts[3],
-        }
     }
 }
 

@@ -1,17 +1,9 @@
-use ab_glyph::{Font, FontArc};
+use ab_glyph::FontArc;
 use anyhow::{anyhow, Result};
+use core::{Backend, HexRgba, Nord};
 use raw_window_handle::HasRawWindowHandle;
 use thiserror::Error;
 use wgpu_glyph::{ab_glyph, GlyphBrushBuilder, Section, Text};
-
-use syntect::{
-    easy::HighlightLines,
-    highlighting::{Style, ThemeSet},
-    parsing::SyntaxSet,
-    util::LinesWithEndings,
-};
-
-use crate::color::{HexRgba, Nord};
 
 type PixelSize = (u32, u32);
 
@@ -23,6 +15,7 @@ pub struct State {
     swap_chain: wgpu::SwapChain,
     staging_belt: wgpu::util::StagingBelt,
     size: PixelSize,
+    backend: Backend,
 }
 
 #[derive(Error, Debug)]
@@ -84,6 +77,9 @@ impl State {
         // Multiple textures for presentation to prevent screen tear
         let swap_chain = device.create_swap_chain(&surface, &sc_desc);
 
+        // This seems to be a long function call, should it be async?
+        let backend = Backend::new()?;
+
         Ok(Self {
             surface,
             device,
@@ -92,6 +88,7 @@ impl State {
             swap_chain,
             staging_belt,
             size,
+            backend,
         })
     }
 
@@ -123,30 +120,10 @@ impl State {
         let mut glyph_brush =
             GlyphBrushBuilder::using_font(font).build(&self.device, self.sc_desc.format);
 
-        let ps = SyntaxSet::load_defaults_newlines();
-
-        // Todo: This not be hard coded
-        let ts = ThemeSet::load_from_folder("D:\\20\\12\\anvimator\\rendering\\src\\assets")?;
-
-        let syntax = ps.find_syntax_by_extension("rs").unwrap();
-        let theme = &ts.themes["Nord"];
-        let mut highlighter = HighlightLines::new(syntax, theme);
-        let string = "pub struct Wow { hi: u64 }\nfn blah() -> u64 { }";
-        let text: Vec<_> = LinesWithEndings::from(string)
-            .flat_map(|line| {
-                let ranges = highlighter.highlight(line, &ps);
-                let mut offset = 0;
-                // Todo: remove nested .collect()
-                let texts: Vec<_> = ranges
-                    .into_iter()
-                    .map(|(style, token)| {
-                        offset += token.len();
-                        let color: HexRgba = style.foreground.into();
-                        Text::new(token).with_color::<[f32; 4]>(color.into())
-                    })
-                    .collect();
-                texts.into_iter()
-            })
+        let highlight = self.backend.highlight();
+        let text: Vec<_> = highlight
+            .iter()
+            .map(|line| Text::new(&line.text).with_color::<[f32; 4]>(line.color.into()))
             .collect();
         glyph_brush.queue(Section {
             text,
@@ -181,11 +158,21 @@ impl State {
                 attachment: &frame.view,
                 resolve_target: None,
                 ops: wgpu::Operations {
-                    load: wgpu::LoadOp::Clear(Nord::PolarNight0.hex().into()),
+                    load: wgpu::LoadOp::Clear(hex_to_wgpu(Nord::PolarNight0.hex())),
                     store: true,
                 },
             }],
             depth_stencil_attachment: None,
         });
+    }
+}
+
+fn hex_to_wgpu(hex: HexRgba) -> wgpu::Color {
+    let parts: [f64; 4] = hex.into();
+    wgpu::Color {
+        r: parts[0],
+        g: parts[1],
+        b: parts[2],
+        a: parts[3],
     }
 }

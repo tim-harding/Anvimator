@@ -227,7 +227,10 @@ checksum = "a2df960f5d869b2dd8532793fde43eb5427cceb126c929747a26823ab0eeb536"
 name = "core"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "ropey",
+ "syntect",
+ "thiserror",
 ]
 
 [[package]]
@@ -1529,8 +1532,8 @@ name = "rendering"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "core",
  "raw-window-handle",
- "syntect",
  "thiserror",
  "wgpu",
  "wgpu_glyph",
