@@ -78,7 +78,12 @@ impl State {
         let swap_chain = device.create_swap_chain(&surface, &sc_desc);
 
         // This seems to be a long function call, should it be async?
-        let backend = Backend::new()?;
+        let mut backend = Backend::new()?;
+        backend.command(core::Command::Edit(core::Edit {
+            action: core::Action::Insert("for i in self.things.iter() { }\n".to_string()),
+            movement: core::Movement::Line,
+            count: 1,
+        }));
 
         Ok(Self {
             surface,

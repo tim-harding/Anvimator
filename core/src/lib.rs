@@ -1,24 +1,18 @@
 mod color;
 
 use ropey::Rope;
-
 use syntect::{easy::HighlightLines, highlighting::ThemeSet, parsing::SyntaxSet};
-
 use anyhow::Error;
 
 pub use color::{HexRgba, Nord};
 
+/// Maintains the editor state and handles input from the frontend application
 #[derive(Debug)]
 pub struct Backend {
     pub rope: Rope,
     pub cursor: (u16, u16),
     themes: ThemeSet,
     syntaxes: SyntaxSet,
-}
-
-pub struct ColoredText {
-    pub text: String,
-    pub color: HexRgba,
 }
 
 impl Backend {
@@ -58,16 +52,26 @@ impl Backend {
                     .into_iter()
                     .map(|(style, token)| {
                         let color: HexRgba = style.foreground.into();
-                        ColoredText {
-                            text: token.to_string(),
-                            color,
-                        }
+                        ColoredText::new(token.to_string(), color)
                     })
                     .collect();
                 texts.into_iter()
             })
             .collect();
         texts
+    }
+}
+
+pub struct ColoredText {
+    pub text: String,
+    pub color: HexRgba,
+}
+
+impl ColoredText {
+    pub fn new(text: String, color: HexRgba) -> Self {
+        Self {
+            text, color
+        }
     }
 }
 
@@ -81,6 +85,16 @@ pub struct Edit {
     pub action: Action,
     pub movement: Movement,
     pub count: u16,
+}
+
+impl Edit {
+    pub fn new(action: Action, movement: Movement, count: u16) -> Self {
+        Self {
+            action,
+            movement,
+            count,
+        }
+    }
 }
 
 pub enum Action {
